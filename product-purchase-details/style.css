@@ -1,0 +1,160 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+    
+}
+
+body{
+
+    font-family: 'poppins', sans-serif;
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+    line-height: 1.7;
+    background: #ecf1f5;
+    height: 100vh;
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background: #fff;
+    width: 320px;
+    height: 680px;
+    border-radius: 28px;
+    box-shadow: 8px 56px 72px -38px rgba(50, 55, 63, 0.46);
+    padding: 20px;
+
+}
+
+.container img.top-car{
+    position: absolute;
+    height: 350px;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.container .menu,
+.container .profile{
+    position: absolute;
+    font-size: 24px;
+    top: 30px;
+    height: 30px;
+    width: 30px;
+    opacity: 0.4;
+}
+
+.container .menu{
+    left: -100px;
+}
+
+.container .profile{
+    right: -100px;
+}
+
+
+.container h1{
+    position: absolute;
+    bottom: -28%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+    color: #313942;
+    opacity: 0.4;
+}
+
+.container p{
+    width: 260px;
+    font-size: 14px;
+    position: absolute;
+    bottom: -16%;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color: #535c68;
+    font-weight: 600;
+}
+
+.container .buy{
+    background: #17202c;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 25px;
+    left: 50%;
+    transform: translate(-50%);
+    cursor: pointer;
+}
+
+.container .buy svg{
+    font-size: 24px;
+    color: #fff;
+    fill: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50% );
+}
+
+.container .back-button{
+    font-size: 24px;
+    /* color: rgba(225, 225,225, 0.473); */
+    color: #fff;
+    position: absolute;
+    left: 35px;
+    bottom: -10%;
+    cursor: pointer;
+    -webkit-tap-highlight-color: rgba(225, 225,225, 0);
+
+}
+
+.container .car-final{
+    position: absolute;
+    height: 200px;
+    left: 200%;
+    top: 10%;
+    transform: translate(-50%);
+}
+
+.container h2{
+    position: absolute;
+    top: 40%;
+    left: -60%;
+    transform: translate(-50%);
+    width: 100%;
+    color: #fff;
+
+}
+.container .summary{
+    position: absolute;
+    top: 46%;
+    left: -52%;
+    transform: translate(-50%);
+    width: 83%;
+    color: #fff;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.container .summary-2{
+    position: absolute;
+    top: 58%;
+    left: -52%;
+    transform: translate(-50%);
+    width: 83%;
+    color: #fff;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
